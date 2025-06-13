@@ -33,6 +33,17 @@ It also includes a basic machine learning model to predict whether a student pas
 
 ## 🚀 How to Run
 
+python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python student_analysis.py
+
+![](figure1.png)
+![](figure2.png)
+![](figure3.png)
+
 ### 📦 1. Clone this repo:
 ```bash
 git clone https://github.com/Kartik0211/student-performance-analysis.git
